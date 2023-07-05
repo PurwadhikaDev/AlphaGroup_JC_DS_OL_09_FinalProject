@@ -49,9 +49,15 @@ Karakteristik Cluster yang terbentuk sebagai berikut:
 | 3 | FRESH | Customer segmen ini merupakan customer yang baru-baru ini berbelanja di **OLIST STORE**, namun mereka belum membelanjakan uang yang banyak ke **OLIST STORE** dan baru berbelanja 1x. | Customer segmen ini 75% berbelanja pada Quarter 3. dimana sisanya berbelanja di Quarter 2 | health_beauty, bed_bath_table, housewares |
 | 4 | MODEST | Customer segmen ini bertipe hemat, dimana mereka berbelanja paling sedikit dibandingkan cluster lain. Mereka hanya 1x membeli dan merupakan segmen dengan resensi terbaik kedua di **OLIST STORE** | Pada Segmen ini cukup dominan membeli pada Quarter 1 & 2 dengan persentase 85% | health_beauty, bed_bath_table, computers_accessories |
 
-Setelah dilakukan segementasi customer, kita mencoba membangun sistem rekomendasi. Tujuan dari dibuatnya sistem rekomendasi ini adalah untuk membantu Team Marketing OLIST untuk menentukan item apa saja yang cocok untuk direkomendasikan kepada pelanggan yang sudah disegmentasi sebelumnya. Recommendation Sytem yang dibangun dapat merekomendasikan item berdasarkan segmentnya disandingkan dengan opsi yang dapat dipilih seperti customer state.
+Setelah dilakukan segementasi customer, kita mencoba membangun sistem rekomendasi. Tujuan dari dibuatnya sistem rekomendasi ini adalah untuk membantu Team Marketing OLIST untuk menentukan item apa saja yang cocok untuk direkomendasikan kepada pelanggan yang sudah disegmentasi sebelumnya. Recommendation Sytem yang dibangun dapat merekomendasikan item **berdasarkan segmentnya disandingkan dengan opsi yang dapat dipilih** seperti customer state.
 
+Rekomendasi untuk data & modelling
+- Mencoba algoritma Machine Learning lain untuk unsupervise learning seperti DBScan, K-Prototype, agglomerative clustering, dll. Namun algoritma tersebut membutuhkan spesifikasi komputer yang tinggi.
+- Mencoba membuat algoritma yang lebih simpel agar notebook bisa di run dengan waktu yang singkat.
+- Menyiapkan data yang lebih clean supaya analisa lebih optimal dan model yang dibangun lebih baik lagi
 
-
+Rekomendasi untuk Bisnis
+- Tim Marketing bisa melakukan approach sesuai dengan segmentnya, misalnya pada cluster FRESH & MODEST berisi customer yang recent buy. Produk favorit atanra 2 cluster tersebut sama, yaitu health_beauty. Dimana produk favorit mereka tidak ditemukan di top 3 most buy pada cluster lain. Customer cluster ini pastinya belum lama menginstal aplikasi OLIST STORE di telepon genggam nya atau mereka baru-baru ini mengunjungi laman OLIST STORE. Sehingga mungkin lebih cocok approaching menggunakan Display & Mobile advertising yang success rate nya 20% menuru
+- memanfaatkan moment seperti *Black Friday*  untuk menarik customer baru lagi. Di hari yang ramai untuk e-commerce ini, bisa dilakukan approaching menggunakan Website & Social Media
 
 Untuk memudahkan Olist Store monitoring performa mereka secara mudah bisa dilihat pada dashboard berikut: [Customer Dashboard](https://public.tableau.com/app/profile/aliyafi94/viz/OlistCustomerDashboardSegmentationbyK-MeansClustering/OverviewDashboard)
