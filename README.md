@@ -51,3 +51,7 @@ Karakteristik Cluster yang terbentuk sebagai berikut:
 
 Setelah dilakukan segementasi customer, kita mencoba membangun sistem rekomendasi. Tujuan dari dibuatnya sistem rekomendasi ini adalah untuk membantu Team Marketing OLIST untuk menentukan item apa saja yang cocok untuk direkomendasikan kepada pelanggan yang sudah disegmentasi sebelumnya. Recommendation Sytem yang dibangun dapat merekomendasikan item berdasarkan segmentnya disandingkan dengan opsi yang dapat dipilih seperti customer state.
 
+
+
+
+Untuk memudahkan Olist Store monitoring performa mereka secara mudah bisa dilihat pada dashboard berikut: [Customer Dashboard](https://public.tableau.com/app/profile/aliyafi94/viz/OlistCustomerDashboardSegmentationbyK-MeansClustering/OverviewDashboard)
